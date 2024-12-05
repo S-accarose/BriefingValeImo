@@ -79,3 +79,17 @@ body
     width: 100%;
     background-color: rgb(30, 41, 54);
 }
+
+.principal
+{
+    background-color: #3e7445;
+    height: 516px;
+    width: 700px;
+}
+
+.secundario
+{
+    background-color: aqua;
+    height: 250px;
+    width: 450px;
+}
