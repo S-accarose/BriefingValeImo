@@ -58,3 +58,19 @@ body
     transform: scale(0.95);
 }
 
+.destaque
+{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    width: 650px;
+    height: 550px;
+    background-color: #ffffff9f;
+}
+
+.btn-conf
+{
+    border-radius: unset;
+    color: aliceblue;
+    background-color: #3e4374;
+}
