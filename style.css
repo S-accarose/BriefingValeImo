@@ -1,6 +1,6 @@
 body
 {
-    background-color: #a5a5a5;
+    background-color: #ffffff;
     min-width: 100vw;
     min-height: 100vh;
 }
@@ -60,17 +60,22 @@ body
 
 .destaque
 {
-    justify-content: center;
-    display: flex;
+    margin-bottom: 40px;
     margin-top: 40px;
-    width: 650px;
-    height: 550px;
-    background-color: #ffffff9f;
+    width: 1150px;
+    height: 650px;
 }
 
 .btn-conf
 {
     border-radius: unset;
     color: aliceblue;
-    background-color: #3e4374;
+    background-color: #3e7445;
+}
+
+.hr
+{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(30, 41, 54);
 }
