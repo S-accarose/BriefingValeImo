@@ -85,6 +85,22 @@ body
     background-color: #3e7445;
     height: 516px;
     width: 700px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.principal:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+.principal:active {
+    transform: scale(0.95);
+}
+
+.foto
+{
+    height: 466px;
 }
 
 .secundario
@@ -92,11 +108,27 @@ body
     background-color: aqua;
     height: 250px;
     width: 450px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.secundario:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+.secundario:active {
+    transform: scale(0.95);
+}
+
+.foto2
+{
+    height: 200px;
 }
 
 .card-footer
 {
-    background-color: aliceblue;
+    background-color: rgb(206, 206, 206);
     width: 100%;
     height: 50px;
 }
