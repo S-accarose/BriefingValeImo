@@ -70,7 +70,7 @@ body
 {
     border-radius: unset;
     color: aliceblue;
-    background-color: #3e7445;
+    background-color: #173d1c;
 }
 
 .hr
@@ -82,7 +82,7 @@ body
 
 .principal
 {
-    background-color: #3e7445;
+    background-color: #173d1c;
     height: 516px;
     width: 700px;
     cursor: pointer;
