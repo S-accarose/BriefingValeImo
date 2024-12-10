@@ -190,10 +190,25 @@ body
 
 .btn-more
 {
-    background-image: url(./imagens/seta.png);
-    margin-top: 25px;
+    margin-top: 15px;
     background-color: #173d1c;
     height: 45px;
     width: 120px;
     border-radius: unset;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.linked-txt
+{
+
+    color: #3e7445;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.linked-txt:hover
+{
+    transform: scale(1.03);
+    transform:#4d5154;
 }
