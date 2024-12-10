@@ -10,7 +10,7 @@ body
     background-image: url(./imagens/fundo1.png);
     background-size: cover;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     height: 55vh;
 }
 
@@ -60,7 +60,6 @@ body
 
 .modelo
 {
-    margin-bottom: 40px;
     margin-top: 40px;
     width: 1150px;
     height: 650px;
@@ -87,6 +86,8 @@ body
     width: 700px;
     cursor: pointer;
     transition: box-shadow 0.3s, transform 0.3s;
+    text-decoration: unset;
+    color: black;
 }
 
 .principal:hover {
@@ -110,14 +111,18 @@ body
     width: 450px;
     cursor: pointer;
     transition: box-shadow 0.3s, transform 0.3s;
+    text-decoration: unset;
+    color: black;
 }
 
-.secundario:hover {
+.secundario:hover
+{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transform: scale(1.03);
 }
 
-.secundario:active {
+.secundario:active
+{
     transform: scale(0.95);
 }
 
@@ -141,4 +146,42 @@ body
     max-width: 60px;
     height: 31px;
     border-radius: 8%;
+}
+
+.mini
+{
+    border-radius: 2%;
+    background-color: rgb(206, 206, 206);
+    height: 430px;
+    width: 290px;
+    text-decoration: unset;
+    color: black;
+}
+
+.mini:hover
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+.mini:active
+{
+    transform: scale(0.95);
+}
+
+.titulo-mini
+{
+    border-radius: 2%;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    height: 150px;
+}
+
+.footer-mini
+{
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+    height: 101px;
+    background-color: rgb(206, 206, 206);
 }
